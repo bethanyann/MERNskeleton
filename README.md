@@ -16,6 +16,6 @@ Frontend -
 2. React Router is installed and imported in the App.js file 
 3. `cd frontend` and run `npm install`
 4. `npm run dev` to run the frontend
-5. Frontend has a proxy defined to bypass CORS errors during development
+5. Frontend has a proxy defined to bypass CORS errors during development for port 4000
 
  
