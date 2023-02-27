@@ -5,7 +5,11 @@ const router = express.Router();
 // sample route
 // a  route like this would fire
 router.get('/', (req, res) => {
-    res.json({msg: 'GET request working'});
+    try {
+        res.json({msg: 'test GET request working'});
+    } catch(error) {
+        res.status(400).json({error: 'something went wrong'});
+    }
 });
 
 /** SAMPLE ROUTES
